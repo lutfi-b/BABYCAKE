@@ -48,7 +48,7 @@ contract BABYCAKE is ERC20, Ownable {
     uint256 public marketingFee = 5;
     uint256 public totalFees = CAKERewardsFee.add(liquidityFee).add(marketingFee);
 
-    address public _marketingWalletAddress = 0x24e21EF2C3C9C93B5791d77cF934bF92a91276ba;
+    address public _marketingWalletAddress = 0x4eF9A651F8656DEf8454178406eEae16FB7Ca458;
 
 
     // use by default 300,000 gas to process auto-claiming dividends
