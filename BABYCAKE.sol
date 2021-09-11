@@ -41,7 +41,7 @@ contract BABYCAKE is ERC20, Ownable {
 
     uint256 public swapTokensAtAmount = 2000000 * (10**18);
     
-    mapping(address => bool) public _isBlacklisted;
+    CAKERCAKERCAKER(address => bool) public _isBlacklisted;
 
     uint256 public CAKERewardsFee = 7;
     uint256 public liquidityFee = 3;
